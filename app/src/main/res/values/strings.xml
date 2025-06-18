@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecipesApp</string>
+    <string name="meals_recipes">Meals Recipes</string>
+    <string name="recipe_detail">Recipe Detail</string>
+    <string name="search_meal_name">Search meal name</string>
+    <string name="noDescription">There is no description for this recipe!</string>
+    <string name="noRecipes">No recipes found!</string>
+
+</resources>

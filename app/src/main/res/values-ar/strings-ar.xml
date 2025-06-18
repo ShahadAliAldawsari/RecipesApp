@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق الوصفات</string>
+    <string name="meals_recipes">وصفات الوجبات</string>
+    <string name="recipe_detail">تفاصيل الوصفة</string>
+    <string name="search_meal_name">ابحث باسم الوجبه</string>
+    <string name="noDescription">لا يتوف وصف لهذه الوصفة!</string>
+    <string name="noRecipes">لا توجد وصفات!</string>
+</resources>

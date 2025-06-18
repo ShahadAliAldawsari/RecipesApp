@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--General App Values-->
+    <integer name="extraSmallSpace">4</integer>
+    <integer name="smallerSpace">8</integer>
+    <integer name="smallSpace">12</integer>
+    <integer name="mediumSpace">16</integer>
+    <integer name="largeSpace">20</integer>
+    <integer name="largerSpace">24</integer>
+    <integer name="extraLargeSpace">32</integer>
+    <integer name="hugeSpace">64</integer>
+
+    <!--Home Screen Values-->
+    <integer name="filterIconSize">34</integer>
+    <integer name="searchBarCorners">8</integer>
+    <integer name="itemPadding">12</integer>
+    <integer name="itemHeight">240</integer>
+    <integer name="recipeImageBoxSize">120</integer>
+    <integer name="recipeImageCorners">12</integer>
+
+    <!--Details Screen Values-->
+    <integer name="heartIconSize">28</integer>
+
+</resources>
