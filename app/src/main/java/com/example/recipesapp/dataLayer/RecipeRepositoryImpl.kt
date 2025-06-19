@@ -7,7 +7,7 @@ import com.example.recipesapp.domainLayer.RecipeRepository
 
 class RecipeRepositoryImpl (private val api: RecipeApi): RecipeRepository{
     override suspend fun searchByRecipeName(recipeName: String, page: Int): List<RecipeModel> {
-        return api.searchRecipeName(recipeName,page).result.map { it.toDomainModel() }
+        return api.searchRecipeName(recipeName,page).results.map { it.toDomainModel() }
     }
     override suspend fun getRecipeByID(id: Int): RecipeModel {
         return api.getRecipeByID(id).toDomainModel()
