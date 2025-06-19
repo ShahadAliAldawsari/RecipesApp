@@ -54,7 +54,6 @@ fun RecipeDetailScreen(
 ) {
     val viewModel: RecipeViewModel = viewModel(factory = factory)
     val recipeState by viewModel.recipeDetailState
-    val recipe = (recipeState as UiState.Success<RecipeModel>).data
     val detailsScreenData = Screens.Details
 
     //currently it's UI only (I did not store liked recipes)
@@ -127,6 +126,7 @@ fun RecipeDetailScreen(
             }
 
             is UiState.Success -> {
+                val recipe = (recipeState as UiState.Success<RecipeModel>).data
                 Column(
                     modifier = Modifier
                         .padding(innerPadding)
